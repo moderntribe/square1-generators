@@ -1,0 +1,25 @@
+{
+    "name": "moderntribe/square1-generators",
+    "type": "library",
+    "description": "Code generators for Square One",
+    "license": "GPL-2.0-only",
+    "config": {
+        "vendor-dir": "vendor",
+        "preferred-install": "dist"
+    },
+    "require": {
+        "moderntribe/square1-cli": "^4.0.12",
+        "moderntribe/square1-container": "^4.0.12",
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tribe\\Libs\\Generators\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.1-dev"
+        }
+    }
+}
